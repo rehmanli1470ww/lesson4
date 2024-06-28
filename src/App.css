@@ -1,5 +1,47 @@
 .App {
   text-align: center;
+  
+}
+.container{
+  display: inline-flex;
+  
+}
+.sectionLeft{
+  width: 500px;
+  height: 600px;
+  background-color:khaki;
+  text-align: left;
+  
+}
+.sectionReight{
+  width: 500px;
+  height: 600px;
+  background-color: khaki;
+  text-align: left;
+  margin: 30px;
+}
+label{
+  width: 400px;
+  height: 50px;
+  display: block;
+  font-size: 2em;
+  margin: 30px;
+}
+.sectionReight label{
+  margin-top: -0px;
+}
+input{
+  width: 200px;
+  height: 30px;
+ 
+}
+button{
+  background-color: yellowgreen;
+  width: 140px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0px;
+  margin-left: 170px;
 }
 
 .App-logo {
